@@ -32,7 +32,7 @@ function popupResult(result) {
 function drawFrame() {
   var img = new Image();
   img.crossOrigin = "Anonymous";
-  img.src = 'images/frame.png';  
+  img.src = 'https://caksup.github.io/q/a/hkn/frame.png';  
   img.onload = function() {
     ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
     popupResult({
@@ -103,7 +103,7 @@ function downloadCanvas(link, canvasId, filename) {
 }
 
 $('#downloadlink').on('click', '.sweet-alert', function() {
-  downloadCanvas(this, 'imageCanvas', 'Framed-by-CAKSUP.jpg'+getFormattedTime()+'');
+  downloadCanvas(this, 'imageCanvas', 'CAKSUPSTUDIO'+getFormattedTime()+'');
 });
 
 
