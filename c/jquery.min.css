@@ -1,0 +1,24 @@
+/*jQueiry.min.css */
+/*!
+ * jQueiry css Library v.1.0
+ * Update :19 May 2021
+ *
+ * Includes jQueiry.js
+ * 
+ *
+ * Copyright jQueiry and other contributors
+ * Released under the MIT license
+ * 
+ *
+ * Date: 2021-05-19 T 14:00
+ */
+.cr-boundary:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url('../a/frame.png');
+  background-size: 100%;
+}
